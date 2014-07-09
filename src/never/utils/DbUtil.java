@@ -9,7 +9,7 @@ public class DbUtil {
 	private final String DRIVER = "com.mysql.jdbc.Driver";
 	private final String URL = "jdbc:mysql://localhost:3306/db_news";
 	private final String USER = "root";
-	private final String PWD = "LXZcyh%8";
+	private final String PWD = "taobao1234";
 
 	public DbUtil() {
 		try {
@@ -23,7 +23,7 @@ public class DbUtil {
 		Connection conn = null;
 		try {
 			conn = (Connection) DriverManager.getConnection(URL, USER, PWD);
-			System.out.println("连接数据库成功！");
+			System.out.println("Connect DB Successfully！");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
