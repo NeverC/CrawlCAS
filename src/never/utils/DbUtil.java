@@ -9,7 +9,7 @@ public class DbUtil {
 	private final String DRIVER = "com.mysql.jdbc.Driver";
 	private final String URL = "jdbc:mysql://localhost:3306/db_news";
 	private final String USER = "root";
-	private final String PWD = "taobao1234";
+	private final String PWD = "LXZcyh%8";
 
 	public DbUtil() {
 		try {
